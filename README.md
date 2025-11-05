@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# ZegoCloud – One-to-One Video Call App (UIKits)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**ZEGOCLOUD UIKits Video Call App** is a simple one-to-one video calling application built using **React JS** and **ZegoCloud Prebuilt UIKits**.  
+This allows users to join a room and communicate using camera, mic, screen share and chat — without manually writing WebRTC code.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
+- Join room using display name
+- Real-time video calling
+- Mute / Unmute microphone
+- Turn camera ON / OFF
+- Screen sharing supported
+- Room chat messaging panel
+- Multiple participants can also join
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
+- **React JS** – Frontend UI
+- **ZEGOCLOUD UIKits** – Call UI and RTC logic (pre-built)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Setup Instructions (Local)
+```bash
+npm install
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+## Important:
 
-### `npm run build`
+Add your ZEGOCLOUD AppID + ServerSecret in:
+```bash
+src/config.js
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
+![page1](./website_images/page1.png)
+![page2](./website_images/page2.png)
+![page3](./website_images/page3.png)
+![page4](./website_images/page4.png)
+![page5](./website_images/page5.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+r
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🧑‍💻 Developer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Keshava K.
+💻 Software Engineer | 💼 Full Stack Web Developer
+📍 Andhra Pradesh, India
+🌐 GitHub
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📧 kesava9347@gmail.com
